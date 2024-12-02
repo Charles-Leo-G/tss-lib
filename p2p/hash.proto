@@ -1,0 +1,11 @@
+syntax = "proto3";
+option go_package = "/p2p";
+package p2p;
+
+message P2pMessageWithHash {
+    string from = 1;
+    repeated string to = 2;
+    bytes hash = 3;
+    bytes originMsg = 4;
+    bool is_to_old_and_new_committees = 5; // used only in certain resharing messages
+}

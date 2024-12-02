@@ -1,0 +1,9 @@
+syntax = "proto3";
+option go_package = "/common";
+package common;
+
+message BootstrapMessage {
+    string ChannelId = 1;
+    bytes PeerInfo = 2;
+    string addr = 3;
+}
