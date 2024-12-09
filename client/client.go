@@ -18,7 +18,7 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	"github.com/Charles-Leo-G/tss-lib/common"
-	"github.com/Charles-Leo-G/tss-libs/p2p"
+	"github.com/Charles-Leo-G/tss-lib/p2p"
 )
 
 var Logger = log.Logger("tss")
